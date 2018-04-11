@@ -4,16 +4,16 @@ CodeGlance [![CircleCI](https://circleci.com/gh/Vektah/CodeGlance/tree/master.sv
 Plugin Repository: http://plugins.jetbrains.com/plugin/7275  
 Latest build: https://github.com/Vektah/CodeGlance/releases
 
-Intelij plugin that displays a zoomed out overview or minimap similar to the one found in Sublime into the editor pane. The minimap allows for quick scrolling letting you jump straight to sections of code.
+IntelliJ plugin that displays a zoomed out overview or minimap similar to the one found in Sublime in the editor pane. The minimap allows for quick scrolling letting you jump straight to sections of code.
 
  - Works with both light and dark themes using your customized colors for syntax highlighting.
  - Worker thread for rendering
- - Color rendering using intelij's tokenizer
+ - Color rendering using intelliJ's tokenizer
  - Scrollable!
  - Embedded into editor window
- - Complete replacement for Code Outline that supports new Intellij builds.
+ - Complete replacement for Code Outline that supports new IntelliJ builds.
 
-![Dracula](https://raw.github.com/Vektah/CodeGlance/master/pub/example.png)
+![Darcula](https://raw.github.com/Vektah/CodeGlance/master/pub/example.png)
 
 
 Building using gradle
@@ -34,11 +34,11 @@ cd CodeGlance
 The result will be saved as build/distributions/CodeGlance-{version}.zip
 
 
-Running from source in Intellj
+Running from source in IntelliJ
 ===================
 1. Make sure you have the Plugin DevKit installed.
 2. Checkout sources from github
-3. Create a new Intellij Platform plugin project
+3. Create a new IntelliJ Platform plugin project
 4. Select source directory, chose a plugin sdk (create one that points to your intellij install).
 5. Mark src/main/java as source root, and src/test/java as test root.
 6. In order to run tests you will need to find mockito and testng jars. I usually do this with gradle.
